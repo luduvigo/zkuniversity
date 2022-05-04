@@ -27,7 +27,7 @@ One way could be to pick the two different coloured objects and tell him that on
 
 1. **Program a super simple “Hello World” smart contract: write a `storeNumber` function to store an unsigned integer and then a `retrieveNumber` function to retrieve it. Clearly comment your code. Once completed, deploy the smart contract on [remix](http://remix.ethereum.org/). Push the .sol file to Github or Gist and include a screenshot of the Remix UI once deployed in your final submission pdf.**
 
-![Remix deploy HelloWorld.sol](https://images.unsplash.com/photo-1588702547919-26089e690ecc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8b25saW5lfGVufDB8fDB8fA%3D%3D&w=1000&q=80).
+![Remix deploy HelloWorld.sol](https://raw.githubusercontent.com/luduvigo/zkuniversity/main/week-0/data/remix-helloworld.png)
 
 2. **On the documentation page, [the “Ballot” contract](https://docs.soliditylang.org/en/v0.8.11/solidity-by-example.html#voting) demonstrates a lot of features on Solidity. Read through the script and try to understand what each line of code is doing.**
 
@@ -199,3 +199,15 @@ contract Ballot {
 ```
 
 4. **Deploy your amended script and test the newly implemented functionality in part 3. Submit (1) your amended version of the contract on Github or Gist and (2) screenshots showing the time of contract deployment as well as the transaction being reverted once past the voting period.**
+
+Deployed contract (remix):
+
+![Remix deploy HelloWorld.sol](https://raw.githubusercontent.com/luduvigo/zkuniversity/main/week-0/data/deploy_ballot.png)
+
+Vote for a proposal (remix):
+
+![Vote for a proposal](https://raw.githubusercontent.com/luduvigo/zkuniversity/main/week-0/data/ballot_vote.png)
+
+Vote not possible, because time elapsed (remix):
+
+![Remix deploy HelloWorld.sol](https://raw.githubusercontent.com/luduvigo/zkuniversity/main/week-0/data/ballot_too_late.png)
