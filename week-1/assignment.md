@@ -28,7 +28,7 @@ Code solution repo at: https://github.com/luduvigo/week1**
 
     3.  Below the tests output:
 
-        ![Working tests](./tests_output.png)
+        ![Working tests](https://raw.githubusercontent.com/luduvigo/zkuniversity/main/week-1/tests_output.png)
 
 ## Part 3
 
